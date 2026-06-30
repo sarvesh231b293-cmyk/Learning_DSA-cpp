@@ -17,7 +17,7 @@ int main()
         cin >> arr[i];
     }
 
-    int largest = arr[0];
+    int largest = arr[0]; // largest = INT_MIN; only when we use #include <climits>
 
     for (int i = 1; i < n; i++)
     {
